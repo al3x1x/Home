@@ -1,0 +1,61 @@
+.padre{
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 197vh;
+    height: 75vh;
+    box-shadow: 0px 1px 6px 0px #000000;
+}
+
+.solicitud{
+    border-bottom: 1px solid #a5bc00;
+    margin-bottom: 2.5rem;
+    color: #5a5a5a;
+}
+
+.form-control{
+    border-radius: 50px;
+}
+
+.form-row{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+
+.campos-derecha{
+    margin-left: 10rem;
+}
+
+label{
+    margin-top: 4px;
+    text-align: center;
+    margin-left: 25%;
+    color: #5a5a5a;
+}
+
+input{
+    width: 35rem;
+    border: 1px solid #a5bc00;
+}
+
+.botones{
+    display: flex;
+}
+
+.boton-usuario{
+    background-color: #a5bc00;
+    border-radius: 50px;
+    width: 35rem;
+    color: rgb(255, 255, 255);
+}
+
+.boton-volver{
+    margin-left: 55px;
+    border: 1px solid #202020;
+    border-radius: 50px;
+    width: 35rem;
+}
+
+.boton-volver:hover{
+    background-color: #7777779a;
+}

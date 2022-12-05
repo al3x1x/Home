@@ -1,0 +1,25 @@
+.btn{
+    border-radius: 50px;
+    background-color: #dddddd !important;
+}
+.btn.btn-outline-success{
+    color: #ffffff;
+    margin-bottom: 1rem;
+    border-color: none;
+    background-color: #28a745 !important;
+    width: 10rem;
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+input{
+    text-align: center;
+    margin-top: 0.8rem;
+    border-radius: 50px;
+    border-color: 2px 2px 2px 2px rgba(128,128,128,0.7);
+    box-shadow: 2px 2px 2px 2px rgba(128,128,128,0.7);
+    font-size: 130%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}

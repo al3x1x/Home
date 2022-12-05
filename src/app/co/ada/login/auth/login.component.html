@@ -1,0 +1,60 @@
+<div class="container-fluid p-5" style="background-image: url('assets/imagenes/backlogin.jpg');">
+
+  <div class="carta">
+  <div class="card">
+    <div class="card-body">
+      
+       <h3 class="titulo"><strong>Control de Acceso</strong></h3>
+      <img class="img1" src="assets/imagenes/ada.png" alt="ada" style="height: auto;  width: auto; margin-bottom: 0.5rem; width: 13rem;">
+    </div>
+
+    <form #login="ngForm" (ngSubmit)="onLogin(login)" novalidate>
+      <span *ngIf="login.submitted && login.controls['nombreUsuario'].errors" class="text-danger">El usuario debe ser obligatorio</span>
+      <div class="input-group flex-nowrap">
+        
+
+<input type="text" name="nombreUsuario" id="nombreUsuario" class="form-control" 
+          placeholder="Usuario" class="form-control" [(ngModel)]="loginUsuario.nombreUsuario" required>
+      </div>
+    
+      <span *ngIf="login.submitted && login.controls['password'].errors" class="text-danger">La contraseña debe ser obligatoria</span>
+      <div class="flex-nowrap contenedorPass mb-4">
+        <span  id="Eyes"  *ngIf="!tipo" >
+          <i class="fas fa-eye-slash"  (click)="ocultarContrasena()"></i>
+        </span>
+        <span  id="Eyes"  *ngIf="tipo" >
+          <i class="fas fa-eye"  (click)="verContrasena()"></i>
+        </span>
+
+        <input [type]="tipo2" name="password" id="password" class="form-control" placeholder="Contraseña"
+         [(ngModel)]="loginUsuario.password" required>
+
+      </div>
+      <br>
+
+      <!--Boton de validacion de credenciales-->
+        <button class="btn btn-outline-success"><strong>Ingresar</strong></button>
+
+      <!--Boton de registro de usuario proveedor y usuario contribuyente-->
+      <div class="botones-registro">
+      <!-- <button type="button" class="btn btn-light proveedor" (click)="NavProveedor()"><strong>Proveedor</strong></button> -->
+      <!-- <button type="button" class="btn btn-light contribuyente" (click)="Contribuyente()"><strong>Contribuyente</strong></button> -->
+
+      <br>
+
+      
+      <a  class="nav-link active" routerLink="/sendemail" type="text" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"><strong>¿Ha olvidado su contraseña?</strong></a>
+
+      
+      
+      <br><br>
+
+      </div>
+    </form>
+
+    <p><strong>Versión 1.0.0/C</strong></p>
+
+  </div>
+  
+</div>
+</div>

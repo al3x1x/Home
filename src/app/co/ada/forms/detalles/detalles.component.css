@@ -1,0 +1,10 @@
+.detalles{
+    text-align: center;
+    align-items: center;
+    padding-left: auto;
+    padding-top: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 125vh;
+    width: 100%;
+}

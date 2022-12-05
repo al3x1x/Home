@@ -1,0 +1,45 @@
+<app-navbar></app-navbar>
+
+<div class="padre m-5">
+
+  <div class="container m-3">
+
+    <h4 class="solicitud"><strong>Solicitud de usuario para proveedores</strong></h4>
+
+    <!-- Formulario de inicio  ---loggin-->
+    <form action="" method="post">
+
+      <div class="form-row">
+        <div class="form-group col-md-5">
+          <input type="text" class="form-control" id="nombre">
+          <label for="nombre">Nombre / Razón social</label>
+        </div>
+
+        <div class="form-group col-md-5 md-5 campos-derecha">
+          <input type="text" class="form-control" id="nit">
+          <label for="nit">CC / NIT</label>
+        </div>
+
+          <div class="form-group col-md-5">
+            <input type="email" class="form-control" id="email">
+            <label for="email">Email</label>
+          </div>
+          <div class="form-group col-md-5 campos-derecha">
+            <input type="password" class="form-control" id="confirmar-email">
+            <label for="confirmar-email">Confirmar Email</label>
+          </div>
+          <div class="form-group col-md-5">
+            <input type="password" class="form-control" id="Password">
+            <label for="Password">Contraseña</label>
+          </div>
+
+          <div class="form-group col-md-5 campos-derecha">
+            <input type="password" class="form-control" id="confirmarPassword">
+            <label for="confirmarPassword">Confirmar Contraseña</label>
+          </div>
+
+          <div class="form-group botones">
+            <button type="submit" class="btn boton-usuario">Solicitar Usuario</button>
+            <a routerLink="/login" e="submit" class="btn boton-volver"><strong>Volver al inicio</strong></a>
+      </div>
+  </div>

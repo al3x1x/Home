@@ -1,0 +1,156 @@
+.contenedor-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 2rem;
+    z-index: 900;
+}
+
+.imagen{
+    width: 150px;
+}
+
+.contenedor-usuario{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contraseña{
+    width: 11rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    border-radius: 50px;
+    border-color: rgb(156, 154, 154);
+}
+
+.dropdown-menu.show{ 
+    border-radius: 30px;
+    margin-left: -60% !important; 
+}
+
+.guardar{
+    border-color: #000000;
+    width: 23rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    border-radius: 50px;
+    border-color: rgb(255, 255, 255);
+    background-color: #3e6eef;
+}
+
+.guardar:hover{
+    background-color: #274bae;
+}
+
+.salir{
+    width: 23rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    border-radius: 50px;
+    background-color: #a5bc00;
+}
+
+.nombreUsuario, .nickname{
+   padding-left: 8px;
+}  
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0.8rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+ .logo > .logoPersona{
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 0px;
+} 
+.contenedor-info-empleado{
+    max-width: 100%;
+    padding: 0.8rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoPersona{
+    border-radius: 50px solid rgb(0, 0, 0);
+}
+
+.contenedor-parrafos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-parrafos > p{
+    margin: 0;
+}
+
+.text-contraseña{
+    padding: 0.3rem 1.5rem;
+}
+
+.text-cont{
+    margin: 0;
+    border-top: 2px solid #000000;
+}
+
+svg{
+    color: black;
+}
+
+.icon{
+    margin-left: -5%;
+    position: absolute;
+}
+
+
+
+@media (max-width: 900px) {
+    .navbar {
+      height: 20vh !important;
+    }
+
+    .name{
+        display: none;
+    }
+
+    .dropdown-menu.show{ 
+
+            left: -350vh;
+            width: 40vh;
+            border-radius: 30px;
+    }
+
+    .guardar{
+        margin-left: auto;
+        margin-right: auto;
+        width:16.5rem
+    }
+
+    .salir{
+        margin-left: auto;
+        margin-right: auto;
+        width: 16.5rem;
+    }
+
+    .contenedor-info-empleado{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+  }
+
+
+

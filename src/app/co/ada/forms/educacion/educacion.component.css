@@ -1,0 +1,114 @@
+*{
+  font-size: 20px;
+}
+
+input{
+  border-radius: 30px;
+  border-color: #a5bc00;
+
+}
+
+h3{
+  text-align: center;
+}
+
+.background{
+  height: 150vh;
+}
+
+.formulario{
+  margin-left: 25%;
+  margin-right: 5%;
+  padding-bottom: 5%;
+
+}
+
+.card{
+  margin-left: 12%;
+}
+
+.card{
+  margin-top: -59%;
+  margin-bottom: 7%;
+  margin-right: 10%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  border-radius: 5%;
+  box-shadow: 0px 0px 10px rgb(7, 7, 7);
+
+}
+
+hr{
+  background-color: #a5bc00;
+  height: 2px;
+
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #f1f1f1;
+  position: relative;
+  height: 815px;
+  overflow: auto;
+  
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+ 
+  background-color: #86918c;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+label{
+  margin-top: 1.5%;
+  margin-left: 35%;
+}
+
+.icon{
+  position: relative;
+  text-align: right;
+  margin-top: -3%;
+}
+
+.bi.bi-check-square:hover{
+  background-color: greenyellow;
+  color: white;
+}
+
+.text{
+  position: relative;
+  display: inline-block;
+}
+
+h3{
+  font-size: 30px;
+}
